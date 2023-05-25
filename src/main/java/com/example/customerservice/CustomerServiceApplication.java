@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // put this in your mysql workbench and run it before you run the application!
 /*--------------------------------------------------------------------
 create database customer_service_db ;
-CREATE USER 'backend2'@'localhost' identified with mysql_native_password BY '****';
-GRANT ALL ON *.* TO 'backend2'@'localhost' with grant option;
+CREATE USER 'backend1'@'localhost' identified with mysql_native_password BY '****';
+GRANT ALL ON *.* TO 'backend1'@'localhost' with grant option;
 ---------------------------------------------------------------------*/
 
 @SpringBootApplication
