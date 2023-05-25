@@ -1,7 +1,7 @@
-package com.example.webshop.Webshop.controllers;
+package com.example.customerservice.controllers;
 
-import com.example.webshop.Webshop.models.Customer;
-import com.example.webshop.Webshop.repos.CustomerRepo;
+import com.example.customerservice.models.Customer;
+import com.example.customerservice.repos.CustomerRepo;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.web.bind.annotation.*;

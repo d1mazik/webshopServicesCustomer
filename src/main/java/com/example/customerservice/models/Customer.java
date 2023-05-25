@@ -1,4 +1,4 @@
-package com.example.webshop.Webshop.models;
+package com.example.customerservice.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
