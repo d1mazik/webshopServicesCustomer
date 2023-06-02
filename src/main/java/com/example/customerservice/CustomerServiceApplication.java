@@ -13,6 +13,15 @@ GRANT ALL ON *.* TO 'backend1'@'localhost' with grant option;
 public class CustomerServiceApplication {
 
     public static void main(String[] args) {
+        /*
+        // Load environment variables from .env file
+        Dotenv dotenv = Dotenv.configure().load();
+
+        // Access environment variables
+        String password = dotenv.get("WEBSHOPSERVICES_PW");
+
+         */
+
         SpringApplication.run(CustomerServiceApplication.class, args);
     }
 
